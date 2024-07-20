@@ -1,0 +1,75 @@
+@media (max-width: 1015px) {
+  h1 {
+    font-size: 70px;
+  }
+  label {
+    font-size: 28px;
+  }
+  #movieTitle {
+    font-size: 36px;
+  }
+  #movieOverview {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 765px) {
+  h1 {
+    font-size: 60px;
+  }
+  label {
+    font-size: 24px;
+  }
+  #movieTitle {
+    font-size: 32px;
+  }
+  #movieOverview {
+    font-size: 16px;
+  }
+  p#movieReleaseDate {
+    font-size: 16px;
+  }
+  #playBtn {
+    margin-top: 16px;
+    font-size: 22px;
+    padding: 12px;
+  }
+  .movieInfo {
+    width: 80%;
+    margin: 25px auto;
+  }
+}
+
+@media (max-width: 697px) {
+  #movieTitle {
+    font-size: 28px;
+  }
+  #movieOverview {
+    font-size: 16px;
+  }
+  p#movieReleaseDate {
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .movieInfo {
+    width: 90%;
+    margin: 25px auto;
+  }
+}
+
+@media (max-width: 499px) {
+  .movieInfo {
+    width: 97%;
+    margin: 15px auto;
+  }
+}
+
+@media (max-width: 399px) {
+  h1 {
+    font-size: 50px;
+  }
+  .movieInfo {
+    width: 100%;
+    margin: 12px auto;
+  }
+}

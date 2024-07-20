@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&family=Fredoka+One&family=Questrial&family=Staatliches&display=swap");
+
+body {
+  background-color: #3f0b0b;
+  color: #eee9b6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  font-family: "Staatliches", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #7e0808;
+}
+
+.header__title {
+  text-align: center;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+#genreForm,
+#playBtn {
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  font-family: "Fredoka One", sans-serif;
+}
+
+#playBtn {
+  margin-top: 20px;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #c74a4a;
+  color: #eee9b6;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  font-size: 35px;
+  margin-bottom: 7px;
+}
+
+select {
+  width: 300px;
+  height: 45px;
+}
+
+/* Movie Info */
+
+.movieInfo {
+  width: 65%;
+  margin: 32px auto;
+  background-color: #831414;
+}
+
+.movieInfo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.movieInfo__poster,
+.movieInfo__text {
+  width: 50%;
+  float: left;
+}
+
+img.movieInfo__poster {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.movieInfo__text {
+  font-family: "Questrial";
+  color: #eee9b6;
+  line-height: 1.25;
+  font-weight: 400;
+}
+
+#movieTitle {
+  font-size: 42px;
+  display: inline-block;
+  background-color: #f8ff25;
+  color: #470e0e;
+  margin: 20px;
+}
+
+#movieOverview {
+  font-size: 21px;
+}
+
+#movieReleaseDate {
+  display: inline-block;
+}
+
+p#movieReleaseDate {
+  margin: 20px;
+  font-size: 18px;
+  color: #470e0e;
+  background-color: #f8ff25;
+  font-weight: 600;
+}
+
+p#movieCast {
+  padding: 16px;
+  font-size: 16px;
+}
+
+#movieTitle,
+#movieOverview {
+  padding: 16px;
+}
+
+#likeOrDislikeBtns {
+  text-align: center;
+  margin: 0px auto;
+}
+
+#likeBtn,
+#dislikeBtn {
+  padding-inline: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 26px;
+  margin: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border-style: none;
+  cursor: pointer;
+}
+
+#likeBtn {
+  background-color: #58bf28;
+  color: #f8ff25;
+}
+
+#dislikeBtn {
+  background-color: #c74a4a;
+  color: #910000;
+}
+
+#likedMovies {
+  font-size: 18px;
+  color: rgb(111, 233, 111);
+}
+
+#dislikedMovies {
+  font-size: 18px;
+  color: rgb(248, 139, 124);
+}
+
+li {
+  padding: 4px;
+}

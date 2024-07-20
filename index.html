@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Finder</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <script
+      defer
+      src="https://kit.fontawesome.com/e918d10e90.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/code.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__title">
+        <h1>🍿Film Finder🍿</h1>
+      </div>
+    </header>
+    <form id="genreForm">
+      <label>Choose a genre:</label>
+      <select name="genres" id="genres"></select>
+    </form>
+    <button id="playBtn">Let's Play!</button>
+    <div id="movieInfo" class="movieInfo">
+      <div class="movieInfo__poster"></div>
+      <div class="movieInfo__text"></div>
+    </div>
+    <div id="likeOrDislikeBtns" hidden>
+      <button id="likeBtn"><i class="fa-solid fa-thumbs-up"></i></button>
+      <button id="dislikeBtn"><i class="fa-solid fa-thumbs-down"></i></button>
+    </div>
+    <ul id="likedMovies"></ul>
+    <ul id="dislikedMovies"></ul>
+  </body>
+</html>
