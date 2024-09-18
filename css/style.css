@@ -142,13 +142,22 @@ p#movieCast {
 }
 
 #likeBtn {
-  background-color: #58bf28;
+  background-color: #3d8c19;
   color: #f8ff25;
 }
 
 #dislikeBtn {
   background-color: #c74a4a;
   color: #910000;
+}
+.thumbs-up {
+  width: 30px;
+  height: 30px;
+}
+
+.thumbs-down {
+  width: 30px;
+  height: 30px;
 }
 
 #likedMovies {
