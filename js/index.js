@@ -249,17 +249,3 @@ const updateDislikedMoviesList = () => {
 getGenres().then(populateGenreDropdown);
 playBtn.onclick = showRandomMovie;
 
-// Film Finder
-// You’ve caught up on your list of TV shows and movies and want to get recommendations for what to watch next, but aren’t sure where to look. In this project, you’ll use your knowledge of HTTP requests and asynchronous JavaScript to create a movie discovery app that will recommend random movies by genre. You’ll be able to choose from several genres, and like or dislike a movie to get another suggestion.
-// Добавление функционала для отображения списка понравившихся и не понравившихся фильмов:
-// Нужно создать массивы для хранения этих фильмов и добавить функционал для их отображения.
-
-// Обновление функции getMovies, чтобы случайная страница была выбрана вместо первой страницы:
-// Добавим параметр для случайного выбора страницы в API запросе.
-
-// Расширение функции displayMovie, чтобы включить информацию о актерах и дате выпуска.
-
-// Исправлены синтаксические ошибки.
-// Добавлен функционал для хранения и отображения понравившихся и не понравившихся фильмов.
-// Обновлена функция getMovies, чтобы включить выбор случайной страницы.
-// Расширена функция displayMovie, чтобы включить информацию о актерах и дате выпуска.
